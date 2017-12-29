@@ -13,8 +13,10 @@ body, html {
 	color:#000;
 }
 
+/* HEADER */
+
 header{
-	min-height:250px;
+	min-height:180px;
 	padding: 0 5%;
 	margin:0 auto;
 	white-space:nowrap;
@@ -40,7 +42,20 @@ header #titre{
 	display:inline-block;
 	text-align:center;
 	vertical-align:center;
-	margin-left:15%;
+	margin-left:10%;
+}
+
+header #titre h1{
+	font-size:40px;
+	margin:0;
+	margin-top:10px;
+	padding:0;
+}
+
+header #titre h2{
+	font-size:25px;
+	margin:0;
+	padding:0;
 }
 
 header #logo{
@@ -50,4 +65,28 @@ header #logo{
 
 header img#logoJeBiFhead{
 	width:250px;
+}
+
+
+
+/* NAV */
+nav{
+	background:#656871;
+	color:#FFF;
+	height:30px;
+	padding: 0 5%;
+}
+
+nav a{
+	color:#FFF;
+	padding: 0 20px;
+	text-decoration:none;
+	font-size:14px;
+	text-transform:uppercase;
+	vertical-align:middle;
+	line-height:30px;
+}
+
+nav a:hover{
+	background-color:#CCC;
 }
