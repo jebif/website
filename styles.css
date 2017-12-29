@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,100);
+body, html {
+	/* height: 100%!important; */
+	/*overflow: auto!important;
+	//max-height: 100% !important;
+	//width:100%;*/
+	background:#FFF;
+	font-size:12px;
+	padding : 0;
+	margin:0;
+	font-family: Lato, sans-serif;
+	color:#000;
+}
+
+header{
+	min-height:250px;
+	padding: 0 5%;
+	margin:0 auto;
+	white-space:nowrap;
+}
+
+header p#lienespacemembre{
+	float:right;
+	border : 2px solid #666;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	border-top:none;
+	padding:10px;
+	font-size:15px;
+	margin-top:0;
+}
+
+header p#lienespacemembre a{
+	color:#000;
+	text-decoration: none;
+}
+
+header #titre{
+	display:inline-block;
+	text-align:center;
+	vertical-align:center;
+	margin-left:15%;
+}
+
+header #logo{
+	display: inline-block;
+	width:250px;
+}
+
+header img#logoJeBiFhead{
+	width:250px;
+}
