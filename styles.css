@@ -13,6 +13,14 @@ body, html {
 	color:#000;
 }
 
+h1{
+	color: #2B3F5E;
+}
+
+h1.titreRub{
+	font-size:20px;
+}
+
 /* HEADER */
 
 header{
@@ -71,7 +79,7 @@ header img#logoJeBiFhead{
 
 /* NAV */
 nav{
-	background:#656871;
+	background:#2B3F5E;
 	color:#FFF;
 	height:30px;
 	padding: 0 5%;
@@ -88,5 +96,41 @@ nav a{
 }
 
 nav a:hover{
-	background-color:#CCC;
+	background-color:#467ABA;
+}
+
+
+/* ARTICLE À LA UNE */
+#une{
+	min-height:250px;
+	//background-color:#CCC;
+	float:left;
+	width:70%
+}
+
+
+/* JEBIF PUB*/
+#blocDroite{
+	float:right;
+	width:25%;
+	padding-right:10px;
+}
+
+#jebifpub .event{
+	padding-left:10px;
+}
+
+#jebifpub hr{
+	border: 1px solid #CCC;
+	width:70%;
+}
+
+#jebifpub .event h1{
+	margin-bottom:0;
+}
+
+#jebifpub .event h1 a{
+	color:#A80532;
+	text-decoration:none;
+	font-size:20px;
 }
