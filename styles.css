@@ -155,3 +155,66 @@ nav a:hover{
 	margin: 0;
 	margin-bottom:5px;
 }
+
+
+/* PAGE MEMBRES */
+#contentmembres{
+	width:80%;
+	margin: 0 auto;
+}
+
+#contentmembres #adherer h1, #contentmembres #login h1{
+	font-size: 20px;
+	color: #A80532;
+}
+
+#contentmembres #adherer h2{
+	color: #A80532;
+}
+
+#contentmembres #adherer i, #contentmembres #login i{
+	margin-right:5px;
+}
+
+#contentmembres #adherer{
+	float:right;
+	width:55%;
+	padding-left:5%;
+	border-left:1px solid #CCC;
+}
+
+#contentmembres #login{
+	width:35%;
+	float:left;
+}
+
+#contentmembres input{
+	font-size:14px;
+}
+
+#contentmembres input[type=email], #contentmembres input[type=password]{
+	padding:10px;
+	border:2px solid #CCC;
+	border-radius:5px;
+	width:100%;
+	outline: none;
+}
+
+#contentmembres input[type=submit]{
+	background-color:#A80532;
+	padding:10px;
+	border:none;
+	border-radius:5px;
+	color:#FFF;
+}
+
+#contentmembres input:focus{
+	border:2px solid #A80532;
+}
+
+#contentmembres input:invalid{
+	background:#E77F8C;
+	color:#FFF;
+}
+
+
