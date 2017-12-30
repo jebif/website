@@ -1,12 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,100);
+
+/*
+
+BLEU : #2B3F5E
+BLEU HOVER : #467ABA
+ROUGE : #A80532
+*/
+
 body, html {
 	/* height: 100%!important; */
 	/*overflow: auto!important;
 	//max-height: 100% !important;
 	//width:100%;*/
 	background:#FFF;
-	font-size:12px;
+	font-size:14px;
 	padding : 0;
 	margin:0;
 	font-family: Lato, sans-serif;
@@ -126,11 +134,24 @@ nav a:hover{
 }
 
 #jebifpub .event h1{
-	margin-bottom:0;
+	margin-bottom:5px;
+	margin-top:0;
 }
 
 #jebifpub .event h1 a{
 	color:#A80532;
 	text-decoration:none;
 	font-size:20px;
+}
+
+#jebifpub .event i{
+	font-size:18px;
+	//color:#2B3F5E;
+	margin: 0 3px;
+}
+
+#jebifpub .event .datetimeEvent, #jebifpub .event .locationevent{
+	font-size:18px;
+	margin: 0;
+	margin-bottom:5px;
 }
