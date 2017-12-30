@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900,400);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,100);
 
 /*
@@ -17,7 +16,7 @@ body, html {
 	font-size:14px;
 	padding : 0;
 	margin:0;
-	font-family: Lato, sans-serif;
+	font-family: 'Lato', sans-serif;
 	color:#000;
 }
 
@@ -27,6 +26,18 @@ h1{
 
 h1.titreRub{
 	font-size:20px;
+}
+
+.clear{
+	clear:both;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 /* HEADER */
@@ -105,23 +116,61 @@ nav a{
 
 nav a:hover{
 	background-color:#467ABA;
+	text-decoration:none;
 }
 
 
 /* ARTICLE À LA UNE */
-#une{
-	min-height:250px;
-	//background-color:#CCC;
+#blocGauche{
 	float:left;
-	width:70%
+	width:72%;
+	padding-left:15px;
 }
 
+#une .alaune{
+	width:30%;
+	float:left;
+	background:#F6F6F6;
+	border:2px solid #CCC;
+	margin: 0 5px;
+	height:280px;
+	padding:5px;
+}
+
+#une .alaune h1{
+	margin:0;
+}
+
+#une .alaune h1 a{
+	color: #A80532;
+	font-size:20px;
+}
+
+#une .alaune .logoArticleUne{
+	text-align: center;
+}
+
+#une .alaune img.imgLogoArticleUne{
+	width:80%;
+}
+
+#une .alaune .resumeArticleUne, #presentationasso #textepresentation{
+	text-align:justify;
+}
+
+#une .alaune p.lienArticle{
+	text-align:right;
+}
+
+#une .alaune p.lienArticle a, #presentationasso p.lienArticle a{
+	color: #A80532;
+}
 
 /* JEBIF PUB*/
 #blocDroite{
 	float:right;
 	width:25%;
-	padding-right:10px;
+	padding-right:15px;
 }
 
 #jebifpub .event{
@@ -140,7 +189,6 @@ nav a:hover{
 
 #jebifpub .event h1 a{
 	color:#A80532;
-	text-decoration:none;
 	font-size:20px;
 }
 
@@ -153,7 +201,29 @@ nav a:hover{
 #jebifpub .event .datetimeEvent, #jebifpub .event .locationevent{
 	font-size:18px;
 	margin: 0;
-	margin-bottom:5px;
+	
+}
+
+#jebifpub .event .datetimeEvent {
+margin-bottom:5px;
+}
+
+#jebifpub .lienEvent{
+	margin:0;
+	text-align:right;
+}
+
+#jebifpub .lienEvent a{
+	color:#A80532;
+}
+
+/* SOUTIENS, AMIS */
+#soutiens .logosoutiens, #amis .logosoutiens{
+	text-align:center;
+}
+
+#soutiens .logosoutiens img, #amis .logosoutiens img{
+	width:50%;
 }
 
 
