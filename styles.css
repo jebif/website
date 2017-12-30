@@ -95,6 +95,22 @@ header img#logoJeBiFhead{
 }
 
 
+#ariane, #disclaimer{
+	padding: 0 15px;
+	margin-bottom: 0;
+	font-size:12px;
+	color: #AAA;
+}
+
+#disclaimer p{
+	margin: 0;
+	text-align:center;
+}
+
+#ariane a, #disclaimer a{
+	color: #AAA;
+}
+
 
 /* NAV */
 nav{
@@ -286,5 +302,4 @@ margin-bottom:5px;
 	background:#E77F8C;
 	color:#FFF;
 }
-
 
