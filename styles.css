@@ -65,21 +65,21 @@ header p#lienespacemembre a{
 	text-decoration: none;
 }
 
-header #titre{
+header #titreSite{
 	display:inline-block;
 	text-align:center;
 	vertical-align:center;
 	margin-left:10%;
 }
 
-header #titre h1{
+header #titreSite h1{
 	font-size:40px;
 	margin:0;
 	margin-top:10px;
 	padding:0;
 }
 
-header #titre h2{
+header #titreSite p{
 	font-size:25px;
 	margin:0;
 	padding:0;
@@ -149,7 +149,7 @@ nav a:hover{
 	background:#F6F6F6;
 	border:2px solid #CCC;
 	margin: 0 5px;
-	height:280px;
+	min-height:280px;
 	padding:5px;
 }
 
@@ -176,6 +176,7 @@ nav a:hover{
 
 #une .alaune p.lienArticle{
 	text-align:right;
+	margin-bottom: 0;
 }
 
 #une .alaune p.lienArticle a, #presentationasso p.lienArticle a{
