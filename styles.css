@@ -42,14 +42,14 @@ a:hover{
 
 /* HEADER */
 
-header{
+header#headerSite{
 	min-height:180px;
 	padding: 0 5%;
 	margin:0 auto;
 	white-space:nowrap;
 }
 
-header p#lienespacemembre{
+header#headerSite p#lienespacemembre{
 	float:right;
 	border : 2px solid #666;
 	border-bottom-left-radius:15px;
@@ -60,37 +60,37 @@ header p#lienespacemembre{
 	margin-top:0;
 }
 
-header p#lienespacemembre a{
+header#headerSite p#lienespacemembre a{
 	color:#000;
 	text-decoration: none;
 }
 
-header #titreSite{
+header#headerSite #titreSite{
 	display:inline-block;
 	text-align:center;
 	vertical-align:center;
 	margin-left:10%;
 }
 
-header #titreSite h1{
+header#headerSite #titreSite h1{
 	font-size:40px;
 	margin:0;
 	margin-top:10px;
 	padding:0;
 }
 
-header #titreSite p{
+header#headerSite #titreSite p{
 	font-size:25px;
 	margin:0;
 	padding:0;
 }
 
-header #logo{
+header#headerSite #logo{
 	display: inline-block;
 	width:250px;
 }
 
-header img#logoJeBiFhead{
+header#headerSite img#logoJeBiFhead{
 	width:250px;
 }
 
@@ -109,6 +109,10 @@ header img#logoJeBiFhead{
 
 #ariane a, #disclaimer a{
 	color: #AAA;
+}
+
+#ariane p{
+	margin-bottom:0;
 }
 
 
@@ -183,6 +187,37 @@ nav a:hover{
 	color: #A80532;
 }
 
+article.actu{
+	background:#F6F6F6;
+	border: 2px solid #CCC;
+	padding:5px;
+	margin-bottom:5px;
+}
+
+article.actu header{
+	margin-left: 0;
+}
+
+article.actu header p.contexteActu{
+	color:#2B3F5E;
+	margin:0;
+	font-weight: bold;
+}
+
+article.actu header time i{
+	margin-right:3px;
+}
+
+article.actu header h1{
+	color:#A80532;
+	margin:0;
+	font-size:20px;
+}
+
+article.actu p{
+	text-align: justify;
+}
+
 /* JEBIF PUB*/
 #blocDroite{
 	float:right;
@@ -217,8 +252,7 @@ nav a:hover{
 
 #jebifpub .event .datetimeEvent, #jebifpub .event .locationevent{
 	font-size:18px;
-	margin: 0;
-	
+	margin: 0;	
 }
 
 #jebifpub .event .datetimeEvent {
